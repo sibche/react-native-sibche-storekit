@@ -1,0 +1,29 @@
+{
+  "name": "react-native-sibche-storekit",
+  "version": "1.0.0",
+  "description": "React Native Sibche StoreKit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sibche/react-native-sibche-storekit"
+  },
+  "keywords": [
+    "sibche",
+    "storekit",
+    "react",
+    "native",
+    "iran",
+    "farsi",
+    "ios",
+    "react-native",
+    "react-component"
+  ],
+  "bugs": {
+    "url": "https://github.com/sibche/react-native-sibche-storekit/issues"
+  },
+  "author": "Sibche",
+  "license": "MIT"
+}

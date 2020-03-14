@@ -1,0 +1,6 @@
+framework module SibcheStoreKit {
+  umbrella header "SibcheStoreKit.h"
+
+  export *
+  module * { export * }
+}

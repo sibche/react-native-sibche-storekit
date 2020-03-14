@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91048E61241ACA160076702D /* RCTSibcheStoreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 91048E5F241ACA160076702D /* RCTSibcheStoreKit.m */; };
+		91048E62241ACA160076702D /* RCTSibcheStoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 91048E60241ACA160076702D /* RCTSibcheStoreKit.h */; };
+		91048E65241ACD6B0076702D /* SibcheStoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 91048E63241ACD6B0076702D /* SibcheStoreKit.h */; };
+		91048E66241ACD6B0076702D /* SibcheStoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91048E64241ACD6B0076702D /* SibcheStoreKit.framework */; };
+		91048E67241ACEBF0076702D /* RCTSibcheStoreKit.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = 91048E60241ACA160076702D /* RCTSibcheStoreKit.h */; };
+		91048E68241ACEBF0076702D /* SibcheStoreKit.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = 91048E63241ACD6B0076702D /* SibcheStoreKit.h */; };
+		FD2CCC851C772B4200B2B24E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2CCC841C772B4200B2B24E /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3245CDEB1BFEE35C00EABF68 /* Copy Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				91048E67241ACEBF0076702D /* RCTSibcheStoreKit.h in Copy Headers */,
+				91048E68241ACEBF0076702D /* SibcheStoreKit.h in Copy Headers */,
+			);
+			name = "Copy Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3245CDED1BFEE35C00EABF68 /* libRCTSibcheStoreKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTSibcheStoreKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91048E5F241ACA160076702D /* RCTSibcheStoreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTSibcheStoreKit.m; sourceTree = "<group>"; };
+		91048E60241ACA160076702D /* RCTSibcheStoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTSibcheStoreKit.h; sourceTree = "<group>"; };
+		91048E63241ACD6B0076702D /* SibcheStoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SibcheStoreKit.h; sourceTree = "<group>"; };
+		91048E64241ACD6B0076702D /* SibcheStoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SibcheStoreKit.framework; sourceTree = "<group>"; };
+		FD2CCC841C772B4200B2B24E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3245CDEA1BFEE35C00EABF68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91048E66241ACD6B0076702D /* SibcheStoreKit.framework in Frameworks */,
+				FD2CCC851C772B4200B2B24E /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3245CDE41BFEE35C00EABF68 = {
+			isa = PBXGroup;
+			children = (
+				91048E56241AC92C0076702D /* RCTSibcheStoreKit */,
+				FD2CCC841C772B4200B2B24E /* SystemConfiguration.framework */,
+				3245CDEE1BFEE35C00EABF68 /* Products */,
+				CA1CC858200FDEFC005B66AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3245CDEE1BFEE35C00EABF68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3245CDED1BFEE35C00EABF68 /* libRCTSibcheStoreKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91048E56241AC92C0076702D /* RCTSibcheStoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				91048E60241ACA160076702D /* RCTSibcheStoreKit.h */,
+				91048E5F241ACA160076702D /* RCTSibcheStoreKit.m */,
+			);
+			path = RCTSibcheStoreKit;
+			sourceTree = "<group>";
+		};
+		CA1CC858200FDEFC005B66AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91048E64241ACD6B0076702D /* SibcheStoreKit.framework */,
+				91048E63241ACD6B0076702D /* SibcheStoreKit.h */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CA3D8B572076D824006F3572 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91048E62241ACA160076702D /* RCTSibcheStoreKit.h in Headers */,
+				91048E65241ACD6B0076702D /* SibcheStoreKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3245CDEC1BFEE35C00EABF68 /* RCTSibcheStoreKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3245CE011BFEE35C00EABF68 /* Build configuration list for PBXNativeTarget "RCTSibcheStoreKit" */;
+			buildPhases = (
+				3245CDE91BFEE35C00EABF68 /* Sources */,
+				3245CDEA1BFEE35C00EABF68 /* Frameworks */,
+				3245CDEB1BFEE35C00EABF68 /* Copy Headers */,
+				CA3D8B572076D824006F3572 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTSibcheStoreKit;
+			productName = RCTOneSignal;
+			productReference = 3245CDED1BFEE35C00EABF68 /* libRCTSibcheStoreKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3245CDE51BFEE35C00EABF68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					3245CDEC1BFEE35C00EABF68 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 3245CDE81BFEE35C00EABF68 /* Build configuration list for PBXProject "RCTSibcheStoreKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 3245CDE41BFEE35C00EABF68;
+			productRefGroup = 3245CDEE1BFEE35C00EABF68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3245CDEC1BFEE35C00EABF68 /* RCTSibcheStoreKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3245CDE91BFEE35C00EABF68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91048E61241ACA160076702D /* RCTSibcheStoreKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3245CDFF1BFEE35C00EABF68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3245CE001BFEE35C00EABF68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3245CE021BFEE35C00EABF68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/**",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../react-native/Libraries/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)/RCTOneSignal",
+					"$(PROJECT_DIR)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		3245CE031BFEE35C00EABF68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/**",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../react-native/Libraries/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)/RCTOneSignal",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3245CDE81BFEE35C00EABF68 /* Build configuration list for PBXProject "RCTSibcheStoreKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3245CDFF1BFEE35C00EABF68 /* Debug */,
+				3245CE001BFEE35C00EABF68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3245CE011BFEE35C00EABF68 /* Build configuration list for PBXNativeTarget "RCTSibcheStoreKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3245CE021BFEE35C00EABF68 /* Debug */,
+				3245CE031BFEE35C00EABF68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3245CDE51BFEE35C00EABF68 /* Project object */;
+}

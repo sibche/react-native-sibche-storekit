@@ -1,0 +1,9 @@
+node_modules
+build
+xcuserdata
+*.iml
+local.properties
+.gradle
+.idea
+xcshareddata
+.DS_Store
