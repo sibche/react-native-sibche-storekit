@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   # REQUIRED: Ensure you have the following in your project's Podfile
   # pod 'React', :path => '../node_modules/react-native/'
 
-  s.dependency 'SibcheStoreKit', '>= 4.1.1', '< 5.0.0'
+  s.dependency 'SibcheStoreKit', '>= 4.1.2', '< 5.0.0'
 end

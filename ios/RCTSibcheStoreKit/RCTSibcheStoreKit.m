@@ -21,7 +21,7 @@ RCT_EXPORT_MODULE();
 
 RCT_EXPORT_METHOD(init:(NSString*)appId withScheme:(NSString*)appScheme)
 {
-    [SibcheStoreKit initWithApiKey:appId withScheme:appScheme];
+    [SibcheStoreKit initWithApiKey:appId withScheme:appScheme withStore:@"SDK-REACT-NATIVE"];
 }
 
 RCT_EXPORT_METHOD(fetchInAppPurchasePackages:(RCTResponseSenderBlock)callback)
