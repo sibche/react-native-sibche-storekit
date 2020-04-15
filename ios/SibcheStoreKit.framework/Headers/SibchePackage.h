@@ -22,6 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSNumber*)discount;
 
 - (NSString*)toJson;
+- (NSDictionary*)toDictionary;
 
 - (instancetype)initWithData:(NSDictionary*)data;
 

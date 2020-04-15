@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)initWithData:(NSDictionary*)data;
 - (NSString *)toJson;
+- (NSDictionary*)toDictionary;
 
 @end
 

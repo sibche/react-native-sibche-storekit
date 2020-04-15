@@ -27,6 +27,7 @@ typedef enum SibcheErrorType : int {
 - (instancetype)initWithData:(NSString*)jsonStr withHttpStatusCode:(NSInteger)httpStatusCode;
 - (instancetype)initWithErrorCode:(SibcheErrorType)errorCode;
 - (NSString*)toJson;
+- (NSDictionary*)toDictionary;
 
 @end
 

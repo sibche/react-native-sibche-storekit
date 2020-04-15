@@ -32,6 +32,9 @@ typedef void (^CurrentUserCallback)(BOOL isSuccessful, SibcheError* error, Login
 // Init sdk with your app's api key
 + (void)initWithApiKey:(NSString*)appId withScheme:(NSString*)appScheme;
 
+// Init sdk with your app's api key and custom store
++ (void)initWithApiKey:(NSString*)appId withScheme:(NSString*)appScheme withStore:(NSString*)store;
+
 // Fetch list of your in-app-purchase packages
 + (void)fetchInAppPurchasePackages:(PackagesCallback)packagesListCallback;
 

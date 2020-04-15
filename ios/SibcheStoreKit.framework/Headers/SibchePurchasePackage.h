@@ -22,6 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)initWithData:(NSDictionary *)data withPackage:(NSDictionary*)package;
 - (NSString*) toJson;
+- (NSDictionary*)toDictionary;
 
 + (NSArray*)parsePurchasePackagesList:(NSDictionary*)data;
 
